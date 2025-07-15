@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redireciona todas as URLs para api.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ api.php [QSA,L]

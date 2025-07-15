@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de build/compilação
+build/
+dist/
+
+# Arquivos temporários do sistema
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+*.swp            # Vim
+*.swo            # Vim
+*.bak            # Backup de editores
